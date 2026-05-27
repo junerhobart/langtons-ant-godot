@@ -1,2 +1,2 @@
-# langton-s-ant-godot
-A simple langton’s ant project in godot.
+# Langton's Ant Godot
+A simple Langton’s Ant project in Godot.

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cqow47bch5ocs"]
+
+[ext_resource type="Script" uid="uid://cljo0h54ukqrs" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://ch2tyyufr2ac5" path="res://camera.gd" id="2_0xm2m"]
+
+[node name="Node2D" type="Node2D" unique_id=1969831205]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=139869166]
+offset = Vector2(-125, -125)
+script = ExtResource("1_ig7tw")
+speedx = 100
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1731245278 node_paths=PackedStringArray("target")]
+script = ExtResource("2_0xm2m")
+target = NodePath("../Sprite2D")
